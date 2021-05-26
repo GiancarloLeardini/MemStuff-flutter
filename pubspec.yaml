@@ -1,0 +1,36 @@
+name: memstuff
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  another_flushbar: ^1.10.20
+  flutter_slidable: ^0.5.7
+  flutter_staggered_animations: ^1.0.0
+  image_picker: ^0.7.4
+  intl: ^0.17.0
+  mask_text_input_formatter: ^1.2.1
+  path: ^1.8.0
+  path_provider: ^2.0.1
+  sqflite: ^2.0.0+3
+  url_launcher: ^6.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Sparkling
+      fonts:
+        - asset: lib/assets/fonts/sparkling.ttf
+          weight: 400
+
+          
